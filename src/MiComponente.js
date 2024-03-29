@@ -1,9 +1,10 @@
 import React from "react";
 import { SegundoComponente } from "./SegundoComponente";
 
-let fichas =[];
+
 
 const MiComponente = () =>{
+
     const fichaMedica ={
         salud : "buena",
         sangre : "A+"        
@@ -34,9 +35,6 @@ const MiComponente = () =>{
             apellido="Montoya"
             ficha = {fichaMedica}
              />
-             <div>
-                {fichas.salud}
-             </div>
         </div>   
     )
     

@@ -7,7 +7,8 @@ export const SegundoComponente = ({nombre, apellido, ficha}) =>{
         <ul>
             <li>{nombre}</li>
             <li>{apellido}</li>
-            <li>Grupo Sanguineo: {ficha.sangre}</li>
+            <li>Estado de Salud: <strong>{ficha.salud}</strong></li>
+            <li>Grupo Sanguineo: <strong>{ficha.sangre}</strong></li>
         </ul>
     )
 
