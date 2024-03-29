@@ -31,7 +31,7 @@ const MiComponente = () =>{
             
             }
             <SegundoComponente 
-            nombre="Cristo"
+            nombre="Fernando"
             apellido="Montoya"
             ficha = {fichaMedica}
              />
